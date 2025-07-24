@@ -1,12 +1,10 @@
 {
-  "name": "events",
+  "name": "@node-practice/events",
   "version": "1.0.0",
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
-    "nodemon": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,20 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "Events",
+    "Project"
+  ],
+  "type": "module",
+  "scripts": {
+    "start:events": "cd Events && npm start",
+    "start:project": "cd Project && node app.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "http": "^0.0.1-security"
+  }
+}
